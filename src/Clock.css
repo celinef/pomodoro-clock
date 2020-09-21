@@ -1,0 +1,69 @@
+body {
+  background: radial-gradient(#e1c699, #ffffff);
+  width: 50%;
+  margin: auto;
+  font-family: "Open Sans", Helvetica
+}
+h1 {
+  color: #333333;
+  padding: 3vh;
+  text-align: center;
+}
+#settings {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+#session {
+  padding-bottom: 20px;
+}
+#session-label, #break-label, #timer-label {
+  /* font-family: "Times New Roman", san-serif; */
+  font-size: 1.5rem;
+  font-weight: 650;
+}
+#session-length, #break-length {
+  font-family: Univers, Helvetica, san-serif;
+  font-size: 2rem;
+  color: #787878;
+}
+#time-left {
+  font-family: Verdana, Helvetica, Univers, san-serif;  
+  font-size: 3.5em;
+  font-weight: 600;
+  color: #225555;  
+}  
+#session-increment, #session-decrement, #break-increment, #break-decrement {
+  font-size: 2em;
+  border: none;
+  border-radius: 20%;  
+  background-color: orange;
+  width: 1em;
+}
+#session-control, #break-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+#timer {
+  border-radius: 20%;
+  background: linear-gradient(#aaaaaa, #9198e5);
+  width: 80%;
+  margin: auto;
+  padding: 10%;
+  text-align: center;
+}
+#start_stop, #reset {
+  font-size: 1em;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 10%;
+  background-color: orange;
+}
+#footer {
+  margin-top: 20px;
+  text-align: center;
+}
