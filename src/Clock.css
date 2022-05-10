@@ -48,7 +48,7 @@ h1 {
   gap: 10px;
 }
 #timer {
-  border-radius: 0%;
+  border-radius: 20%;
   background: linear-gradient(#aaaaaa, #9198e5);
   width: 80%;
   margin: auto;
